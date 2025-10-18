@@ -1,0 +1,97 @@
+# .gitignore for telecom-churn-prediction
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Notebook outputs / checkpoints
+*.nbconvert.ipynb
+
+# Data, models and outputs (avoid committing large or sensitive artifacts)
+data/
+datasets/
+raw_data/
+models/
+saved_models/
+outputs/
+artifacts/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+*.pth
+*.pt
+
+# Logs and run-time files
+*.log
+logs/
+*.sqlite3
+*.db
+celerybeat-schedule
+
+# Test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+pytype/
+pylint-report.txt
+pylint-global.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Secrets / credentials
+*.pem
+*.key
+*.crt
+credentials/
+aws_credentials
+.env.local
+
+# Documentation
+docs/_build/
+
+# Misc
+*.bak
+*.tmp
+*.orig
